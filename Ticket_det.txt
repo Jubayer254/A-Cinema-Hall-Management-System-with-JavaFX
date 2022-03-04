@@ -1,0 +1,40 @@
+Movie Title: Venom2
+Customer Name: Jubayer
+Customer Email: jubayerhossen152@gmail.com
+Date: 2021-09-21
+Time: 9.00 AM
+Hall: Hall 1
+Seat No: 10
+Price: 150 Tk
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Movie Title: Inception
+Customer Name: Abir
+Customer Email: jubayerhossen125@gmail.com
+Date: 2021-09-21
+Time: 9.00 AM
+Hall: Hall 1
+Seat No: 11
+Price: 250 Tk
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Movie Title: Eternals
+Customer Name: Alif
+Customer Email: ahmedraihanalif@gmail.com
+Date: 2021-09-22
+Time: 9.00 AM
+Hall: Hall 1
+Seat No: 12
+Price: 250 Tk
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Movie Title: Eternals
+Customer Name: Redwan
+Customer Email: gmredwanjoy@gmail.com
+Date: 2021-09-22
+Time: 9.00 AM
+Hall: Hall 5
+Seat No: 12
+Price: 250 Tk
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,16 @@
+Movie Title: Venom2
+IMDB Rating: 8.0
+Category: Action
+Release Date: 2 Hour  
+Runtime: 2 Hour  
+Description: Venom is a marval character.  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Movie Title: Inception
+IMDB Rating: 9.0
+Category: Si-Fi
+Release Date: 1 Hour  
+Runtime: 1 Hour  
+Description: Directed by Christopher Nolan. With Leonardo DiCaprio.  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

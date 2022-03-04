@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="560.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.movie_controller">
+   <children>
+      <ImageView fitHeight="590.0" fitWidth="1020.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/js.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="560.0" prefWidth="980.0" />
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="560.0" prefWidth="980.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="13.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/Untitled-3.png" />
+               </image>
+            </ImageView>
+            <DatePicker fx:id="rel" layoutX="689.0" layoutY="215.0" prefHeight="27.0" prefWidth="191.0" style="-fx-background-color: white; -fx-border-color: orange; -fx-background-radius: 7; -fx-border-radius: 7;" />
+            <MenuButton fx:id="category" layoutX="270.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: white; -fx-border-radius: 7; -fx-border-color: orange; -fx-background-radius: 7;" text="Select Category">
+               <items>
+                  <MenuItem fx:id="action" mnemonicParsing="false" onAction="#A" text="Action" />
+                  <MenuItem fx:id="adv" mnemonicParsing="false" onAction="#Ad" text="Adventure" />
+                  <MenuItem fx:id="rom" mnemonicParsing="false" onAction="#R" text="Romantic" />
+                  <MenuItem fx:id="sifi" mnemonicParsing="false" onAction="#S" text="Si-Fi" />
+                  <MenuItem fx:id="hor" mnemonicParsing="false" onAction="#H" text="Horror" />
+                  <MenuItem fx:id="bio" mnemonicParsing="false" onAction="#Bio" text="Biography" />
+               </items>
+            </MenuButton>
+            <MenuButton fx:id="rat" layoutX="270.0" layoutY="269.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: white; -fx-border-radius: 7; -fx-border-color: orange; -fx-background-radius: 7;" text="Select Rating">
+               <items>
+                  <MenuItem fx:id="one" mnemonicParsing="false" onAction="#one" text="1.0" />
+                  <MenuItem fx:id="two" mnemonicParsing="false" onAction="#two" text="2.0" />
+                  <MenuItem fx:id="three" mnemonicParsing="false" onAction="#three" text="3.0" />
+                  <MenuItem fx:id="four" mnemonicParsing="false" onAction="#four" text="4.0" />
+                  <MenuItem fx:id="five" mnemonicParsing="false" onAction="#five" text="5.0" />
+                  <MenuItem fx:id="six" mnemonicParsing="false" onAction="#six" text="6.0" />
+                  <MenuItem fx:id="seven" mnemonicParsing="false" onAction="#seven" text="7.0" />
+                  <MenuItem fx:id="eight" mnemonicParsing="false" onAction="#eight" text="8.0" />
+                  <MenuItem fx:id="nine" mnemonicParsing="false" onAction="#nine" text="9.0" />
+                  <MenuItem fx:id="ten" mnemonicParsing="false" onAction="#ten" text="10.0" />
+               </items>
+            </MenuButton>
+            <TextField fx:id="r_time" layoutX="689.0" layoutY="271.0" prefHeight="27.0" prefWidth="191.0" style="-fx-background-color: White; -fx-border-color: orange; -fx-border-radius: 7; -fx-background-radius: 7;" />
+            <ImageView fitHeight="20.0" fitWidth="68.0" layoutX="170.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/1280px-4_stars.svg.png" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="dis" layoutX="689.0" layoutY="325.0" prefHeight="67.0" prefWidth="191.0" style="-fx-background-color: white; -fx-border-color: orange; -fx-background-radius: 8; -fx-border-radius: 8;" />
+            <Text fill="WHITE" layoutX="387.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD MOVIES">
+               <font>
+                  <Font name="Chiller" size="45.0" />
+               </font>
+            </Text>
+            <Button fx:id="back2" layoutX="33.0" layoutY="92.0" mnemonicParsing="false" onAction="#backhome" onMouseClicked="#backhome" prefHeight="46.0" prefWidth="46.0" style="-fx-background-color: tranparent; -fx-border-radius: 50; -fx-border-color: orange; -fx-font-size: 20; -fx-font-weight: bold; -fx-background-radius: 50; -fx-cursor: hand;" text="&lt;" textFill="WHITE" />
+            <Text fill="WHITE" layoutX="567.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="567.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Run-Time">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="m_name" layoutX="270.0" layoutY="216.0" prefHeight="27.0" prefWidth="191.0" style="-fx-background-color: White; -fx-border-color: orange; -fx-border-radius: 7; -fx-background-radius: 7;" />
+            <Text fill="WHITE" layoutX="71.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Title">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="71.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IMDB Rating">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="71.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="567.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Release Date">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Button fx:id="Submit" layoutX="689.0" layoutY="420.0" mnemonicParsing="false" onAction="#addM" prefHeight="38.0" prefWidth="191.0" style="-fx-background-color: purple; -fx-font-size: 12; -fx-font-weight: bold; -fx-background-radius: 22; -fx-cursor: hand;" text="Submit" textFill="WHITE" />
+            <TextField fx:id="wrong" editable="false" layoutX="71.0" layoutY="420.0" prefHeight="39.0" prefWidth="373.0" style="-fx-background-color: white; -fx-text-inner-color: red; -fx-background-color: transparent;">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
