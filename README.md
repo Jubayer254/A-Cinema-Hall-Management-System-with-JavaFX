@@ -21,7 +21,7 @@ It is a cinema hall Management System. In this system, a cinema hall can manage 
 * Delete Movie
 * Sell Tickets
 * Ticket Buying Confirmation to Customer by Mail
-* View Customer Information
+* View Customer Records
 * View Now Showing Movies
 
 ## Snapshots
@@ -58,7 +58,7 @@ It is a cinema hall Management System. In this system, a cinema hall can manage 
 
 <img src="Screenshots\7.png" alt="" style="width:720px;"/>
 
-* Now Showing Movies
+* Customer Records 
 
 <img src="Screenshots\9.png" alt="" style="width:720px;"/>
 
