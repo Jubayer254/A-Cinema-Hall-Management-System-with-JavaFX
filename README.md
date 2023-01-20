@@ -50,13 +50,13 @@ It is a cinema hall Management System. In this system, a cinema hall can manage 
 
 <img src="Screenshots\6.png" alt="" style="width:720px;"/>
 
-* Ticket Buying Confirmation to Customer by Mail
-
-<img src="Screenshots\7.png" alt="" style="width:720px;"/>
-
 * Ticket Confirmation
 
 <img src="Screenshots\8.png" alt="" style="width:720px;"/>
+
+* Ticket Buying Confirmation to Customer by Mail
+
+<img src="Screenshots\7.png" alt="" style="width:720px;"/>
 
 * Now Showing Movies
 
